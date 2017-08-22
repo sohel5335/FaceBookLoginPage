@@ -1,0 +1,68 @@
+@media all and (max-width:768px){
+	.signup-area .left-area {
+		float:left;
+		width:100%;
+	}
+	.signup-area .right-area{
+		width:100%; 
+		
+	}
+	.footer-bottom ul{
+		width:100%;
+	}
+
+}
+@media all and (max-width:600px){
+    .header-area .logo-area{
+		width:100%;
+		float:none;
+		text-align:center;
+	 }
+	 .login-area form {
+	  float:none;
+	  margin:auto;
+	  width:356px;
+	  
+   }
+   .header-area .login-area{
+	width:100%;
+	
+  }
+  
+	 
+}
+
+@media all and (max-width:390px){
+	.username-area {
+	float:none;
+	overflow:hidden;
+	margin-right:0;
+	margin-bottom:20px;
+	}
+	.password-area{
+		margin-right:0;
+		margin-bottom:20px;
+		float:none;
+	}
+	.submit-area{
+	
+	float:none;
+	
+	
+   }
+   .username-area input[type="text"],
+   .password-area input[type="password"]{
+		width:100%;
+		font-size:18px;
+		padding:5px;
+	}
+	.header-area{
+	
+	font-size:16px;
+	
+   }
+   .mobile-area{
+	   display:none;
+   }
+   
+}
